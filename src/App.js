@@ -5,7 +5,11 @@ import './App.css';
 // import LifecycleEx5 from './R005_LifecycleEx';
 // import LifecycleEx6 from './R006_LifecycleEx';
 // import LifecycleEx7 from './R007_LifecycleEx';
-import LifecycleEx8 from './R008_LifecycleEx';
+// import LifecycleEx8 from './R008_LifecycleEx';
+// import Es6 from './R009_Es6';
+// import Variable from './R010_Variable';
+// import SpreadOperator from './R011_SpreadOperator';
+import ClassPrototype from './R012_Class&Prototype';
 
 function App() {
   return (
@@ -16,8 +20,12 @@ function App() {
       <LifecycleEx4></LifecycleEx4>
       <LifecycleEx5></LifecycleEx5>
       <LifecycleEx6 prop_value = 'FromApp.js'/>
-      <LifecycleEx7 prop_value = 'From App.js'/> */}
+      <LifecycleEx7 prop_value = 'From App.js'/>
       <LifecycleEx8 prop_value = 'From App.js2'/>
+      <Es6/>
+      <Variable/>
+      <SpreadOperator/> */}
+      <ClassPrototype/>
     </div>
   );
 }
